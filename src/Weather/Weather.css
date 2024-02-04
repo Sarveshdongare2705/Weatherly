@@ -1,0 +1,141 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 2rem 1rem;
+    background: url('https://images.unsplash.com/photo-1603437873662-dc1f44901825?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2xvdWRzfGVufDB8fDB8fHww');
+    background-size: cover;
+    font-weight: bold;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h1 {
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+#input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 7px 10px;
+    color: black;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-right: 7px;
+    transition: all 0.7s;
+}
+
+#input:active {
+    opacity: 0.6;
+}
+
+#search {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 7px 10px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+#search:hover {
+    background-color: white;
+    color: black;
+}
+
+#search:active {
+    opacity: 0.6;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.city {
+    font-size: 30px;
+}
+
+.country {
+    font-size: 20px;
+}
+
+.class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 100px;
+}
+
+.component {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.days {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    height: 200px;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nameofday {
+    padding-top: -10px;
+}
